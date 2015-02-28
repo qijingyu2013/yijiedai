@@ -1,0 +1,154 @@
+
+#afui #view { background:#fff}
+#afui .view-box-list1 .view-box-title1{ 
+	width:100%;
+	height:30px;
+	line-height:30px;
+	overflow:hidden;
+	border-bottom:1px solid #dedede;
+	position:relative;
+	display:block;
+	text-indent:10%;
+	font-size:14px;
+	padding:0;
+	margin:0
+}
+#afui .view-box-list1  .tb-title-zun {
+	top:7px; left:3%;
+}
+.view-com-grid2,.view-com-grid3 { 
+	width:94%; 
+	margin:10px auto; 
+	height:auto;
+	overflow:hidden;
+}
+.view-com-grid2 li { line-height:18px;}
+.view-greid2-l { width:60%; float:left}
+.view-greid2-r { width:40%; float:right; text-align:right}
+/**进度条**/
+.progress { 
+	width:70%;
+	height:10px;
+	background:#d5d5d6;
+	border-radius:5px;
+	position:relative;
+	float:left;
+	margin:2px 5px 0 0; 
+}
+.progress-line {
+	width:66%;
+	height:10px;
+	border-radius:5px 0 0 5px;
+	background:#df5858;
+	position:absolute;
+}
+
+.view-com-grid3 li{
+	width:33.3%;
+	text-align:center;
+	float:left;
+	font-size:12px;
+	line-height:18px;	
+}
+.view-com-grid3  .view-greid3-l { text-align:left}
+.view-com-grid3  .view-greid3-r { text-align:right; float:right}
+
+.view-grap-3 {	border-top:3px solid #a50101;}
+.view-box-title2 {
+	height:40px;
+	line-height:40px;
+	background:#eee;
+	padding:0; 
+	margin:0;
+	border-bottom:1px solid #fff;
+}
+.view-box-title2 a {
+	width:100%;
+	height:40px;
+	display:block;
+	color:#999
+}
+.view-box-title2 span {
+	float:right;
+	width:20px;
+ 	height:20px;
+	display:block;
+	text-align:center;
+	line-height:20px;
+	background:#848484;
+	color:#eee;
+	border-radius:5px;
+	margin:10px 0px;
+	font-size:10px;
+}
+.view-box-title2 i {
+	color:#848484;
+	font-size:20px;
+	margin:0 5px 0 3%
+}
+.view-list2-contant { 
+	width:94%; 
+	margin:20px auto; 
+	font-size:12px; 
+	color:#848484; 
+	line-height:18px;
+}
+
+.view-record,.view-pay{ margin-top:20px;}
+.view-record dt,.view-pay dt{
+	background:#eeeeee;
+	width:100%;
+	height:30px;
+	overflow:hidden;
+	line-height:30px;
+}
+.view-record  li,.view-pay li {
+	float:left;
+}
+.view-record dd,.view-pay dd  {
+	width:100%;
+	height:30px;
+	overflow:hidden;
+	line-height:30px;
+	border-bottom:1px solid #eee;
+	color:#848484;
+}
+.view-greid3-1  {
+	width:27%;
+	margin-left:3%;
+}
+.view-greid3-2  {
+	width:40%;
+	text-align:center;
+}
+.view-greid3-3  {
+	width:27%;
+	text-align:right;
+	margin-right:3%
+}
+.view-pay-grid2 { width:30%; text-align:center}
+.view-pay-grid3 { width:24%; text-align:center}
+.view-pay-grid4 { width:30%; text-align:center}
+.view-pay-grid5 { width:14%; text-align:center}
+.view-pay dd  .view-pay-grid3 { text-align:right}
+.view-pay dd i { color:#1fa21f}
+
+
+.view-list2-contant,.view-record,.view-pay {
+	width:94%;
+	padding:20px 10px;
+	margin:20px auto;
+	background:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+

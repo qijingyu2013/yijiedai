@@ -1,0 +1,78 @@
+
+/* Class = "IBUIBarButtonItem"; title = "返回"; ObjectID = "AIE-f9-iDl"; */
+"AIE-f9-iDl.title" = "返回";
+
+/* Class = "IBUITabBarItem"; title = "Item"; ObjectID = "Adz-oR-7QK"; */
+"Adz-oR-7QK.title" = "Item";
+
+/* Class = "IBUILabel"; text = "账 户:"; ObjectID = "GIg-De-4Gh"; */
+"GIg-De-4Gh.text" = "账 户:";
+
+/* Class = "IBUIButton"; normalTitle = "忘记密码"; ObjectID = "GJT-cs-333"; */
+"GJT-cs-333.normalTitle" = "忘记密码";
+
+/* Class = "IBUIButton"; normalTitle = "发送"; ObjectID = "Gdj-tq-P24"; */
+"Gdj-tq-P24.normalTitle" = "发送";
+
+/* Class = "IBUINavigationItem"; title = "设置"; ObjectID = "IBO-Xm-iyB"; */
+"IBO-Xm-iyB.title" = "设置";
+
+/* Class = "IBUIButton"; normalTitle = "下一步"; ObjectID = "J3S-j3-C4U"; */
+"J3S-j3-C4U.normalTitle" = "下一步";
+
+/* Class = "IBUINavigationItem"; title = "重置登录密码"; ObjectID = "JXf-fJ-z0u"; */
+"JXf-fJ-z0u.title" = "重置登录密码";
+
+/* Class = "IBUIButton"; normalTitle = "注册"; ObjectID = "MqU-3x-NH5"; */
+"MqU-3x-NH5.normalTitle" = "注册";
+
+/* Class = "IBUILabel"; text = "手机号:"; ObjectID = "OAb-LD-qQt"; */
+"OAb-LD-qQt.text" = "手机号:";
+
+/* Class = "IBUITabBarItem"; title = "Item"; ObjectID = "ORJ-AQ-g0o"; */
+"ORJ-AQ-g0o.title" = "Item";
+
+/* Class = "IBUILabel"; text = "手机号:"; ObjectID = "UuH-t3-rwd"; */
+"UuH-t3-rwd.text" = "手机号:";
+
+/* Class = "IBUITabBarItem"; title = "Item 2"; ObjectID = "VDp-of-T0X"; */
+"VDp-of-T0X.title" = "Item 2";
+
+/* Class = "IBUINavigationItem"; title = "借款"; ObjectID = "Y8f-qU-8p6"; */
+"Y8f-qU-8p6.title" = "借款";
+
+/* Class = "IBUINavigationItem"; title = "注册"; ObjectID = "Yrd-Qd-xAe"; */
+"Yrd-Qd-xAe.title" = "注册";
+
+/* Class = "IBUITabBarItem"; title = "Item 1"; ObjectID = "ZKa-Cf-R4X"; */
+"ZKa-Cf-R4X.title" = "Item 1";
+
+/* Class = "IBUINavigationItem"; title = "理财大厅"; ObjectID = "Zgl-JJ-9k3"; */
+"Zgl-JJ-9k3.title" = "理财大厅";
+
+/* Class = "IBUINavigationItem"; title = "财富"; ObjectID = "bta-fn-HUq"; */
+"bta-fn-HUq.title" = "财富";
+
+/* Class = "IBUIButton"; normalTitle = "下一步"; ObjectID = "ce6-xT-L8U"; */
+"ce6-xT-L8U.normalTitle" = "下一步";
+
+/* Class = "IBUIButton"; normalTitle = "登录"; ObjectID = "dTh-1a-ezB"; */
+"dTh-1a-ezB.normalTitle" = "登录";
+
+/* Class = "IBUILabel"; text = "密 码:"; ObjectID = "goq-ZI-UZB"; */
+"goq-ZI-UZB.text" = "密 码:";
+
+/* Class = "IBUIButton"; normalTitle = "发送"; ObjectID = "kgK-pC-Ore"; */
+"kgK-pC-Ore.normalTitle" = "发送";
+
+/* Class = "IBUIBarButtonItem"; title = "返回"; ObjectID = "mVw-b6-VVd"; */
+"mVw-b6-VVd.title" = "返回";
+
+/* Class = "IBUILabel"; text = "验证码:"; ObjectID = "oDb-Nk-kKM"; */
+"oDb-Nk-kKM.text" = "验证码:";
+
+/* Class = "IBUILabel"; text = "验证码:"; ObjectID = "rHP-5A-DPN"; */
+"rHP-5A-DPN.text" = "验证码:";
+
+/* Class = "IBUIButton"; normalTitle = "点击开始!"; ObjectID = "tLa-Gl-D5a"; */
+"tLa-Gl-D5a.normalTitle" = "点击开始!";

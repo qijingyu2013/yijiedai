@@ -1,0 +1,26 @@
+
+.more-ad {width:143px;margin:30px auto;}
+.more-list ul {
+	width:94%;
+	height:auto;
+	background:#fff;
+	margin:20px auto;
+	border:1px solid #eee;
+	
+}
+.more-list ul li {
+	height:40px;
+	line-height:40px;
+	border-bottom:1px solid #eee;
+	overflow:hidden;
+	padding:0 2%;
+}
+.more-list ul li a {
+	width:100%;
+	height:100%;
+	display:block;
+	color:#000
+}
+.more-list ul li i,.more-list ul li span { color:#848484}
+.more-list ul li span { font-size:12px;}
+#afui .more-list p { text-align:center; font-size:12px; color:#bebebe}

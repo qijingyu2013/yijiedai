@@ -1,0 +1,239 @@
+/**首页样式**/
+
+.yjd-head {
+	margin-top:15px
+}
+.yjd-head-logo  {
+	width:95px;
+	height:auto;
+	margin:0 auto;
+}
+.yjd-head-logo i { font-size:90px; color:#f5d96c; font-weight:normal}
+
+
+.yjd-banner { max-width:320px; height:auto; margin:0 auto;}
+.yjd-banner li { height:140px;}
+.yjd-banner img { width:100%}
+
+/**标的样式**/
+.yjd-list {
+	width:100%; 
+	height:auto; 
+	padding:20px 0;
+	background:#ebebeb;
+}
+.yjd-list-tb { 
+	width:94%;
+	margin:0px auto 15px; 
+	height:130px;
+	border-radius:3px;
+	background:#fff;
+	position:relative;
+ }
+.yjd-list-tb  h3{
+	font-size:14px;
+	color:#000;
+	height:31px;
+	line-height:30px;
+	border-bottom:1px solid #f4f4f4;
+	text-indent:80px;
+}
+.yjd-list-tb  h3 span {
+	text-indent:0;
+	position:absolute;
+	display:block;
+}
+.tb-title-yg {			/**新标预告**/
+	width:70px;
+	height:30px;
+	background:#fe7c02;
+	color:#fff;
+	text-align:center;
+	border-radius:3px 0 0 0;
+	font-weight:700
+}
+
+ 
+.yjd-box {
+	width:94%;
+	margin:0 auto;
+	font-size:12px;
+	color:#848484;
+}
+.yjd-box-grid2{
+	width:70%;
+	float:left;
+ 
+}
+.yjd-grid2-ul {   /**金额，期限，年化率**/
+	width:100%;
+	height:auto; 
+	overflow:hidden;
+	padding:10px 0;
+}
+.yjd-grid2-ul li {	
+	float:left;
+	text-align:left;
+	height:25px; 
+	line-height:25px;
+	margin-right:10px;
+}
+
+
+.fn-countdown ,.fn-re-countdown time{		/**新标预告倒计时**/
+	margin-top:10px;
+	background:#ff9400;
+	color:#fff;
+	width:140px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	border-radius:10px;
+}
+.fn-re-countdown time { margin-top:5px}
+
+.fn-re-countdown {	/**满标倒计时**/
+	margin-top:10px;
+	color:#6b6b6b;
+	
+}
+
+
+.yjd-box-grid1 {		/**新标预告提醒按钮和正在投标投标按钮**/
+	float:right;
+	width:30%
+}
+.fn-tixing,.fn-toubiao  { 
+	margin-top:20px;
+	margin-left:10px;
+}
+.fn-tixing {	/**提醒按钮**/
+	width:60px;
+	height:60px;
+	border-radius:30px;
+	background:#fe7c02;
+	overflow:hidden;
+}
+.btn-tixing {
+	width:50px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	background:#fff;
+	border-radius:25px;
+	margin:5px auto;
+	color:#fe7c02;
+	font-size:14px;
+	font-weight:bold
+}
+.fn-toubiao {	/**投标按钮**/
+	width:60px;
+	height:60px;
+	border-radius:30px;
+	border:2px solid #e74100;
+}
+
+.yjd-list-zztb { height:150px;}
+.fn-num { text-align:center}
+
+/**正在还款**/
+.yjd-box-list1 { padding:10px 0;}
+.yjd-hk-grid { 
+	display:table;
+	width:100%
+}
+.yjd-hk-grid  li{ 
+	display:table-cell;
+	width:25%;
+	border-right:1px solid #dedede;
+	text-align:center
+}
+.yjd-hk-grid .yjd-hk-grid-end { border-right:none}
+.yjd-hk-grid li div { margin-top:5px;}
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /**理财大厅**/
+ #hall-title h1 { position:relative}
+ #hall-title h1 b {
+	position: absolute;
+	right: 15px;
+	bottom: 7px;
+	width: 0px;
+	height: 0px;
+	border-width: 8px;
+	border-style: solid;
+	border-color: #ffffff transparent transparent;
+	font-size: 0px;
+	line-height: 0;
+}
+
+.loadmore { 
+	width:100%;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	display:block;
+	color:#848484;
+}
+.hall-xiala {
+	width:100%;
+	height:auto;
+	background:#fff;
+	position:absolute;
+	z-index:999;
+	display:none;
+}
+.hall-xiala li {
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #eee;
+	color:#848484
+} 
+.hall-xiala li i { font-size:16px; margin:0 8px; }
+
+/**注册协议**/
+#agreement p {
+	font-size:12px;
+	margin:10px 0;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

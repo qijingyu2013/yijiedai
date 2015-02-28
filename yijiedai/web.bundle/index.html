@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>hello World</title>
+    </head>
+    <script type="text/javascript">
+        
+    </script>
+    <style type="text/css">
+        tr
+        {
+            text-align: center;
+            background-color:white;
+        }
+    *{
+        padding:0px;
+        margin:0px;
+    }
+    </style>
+    <body style="background-color: transparent">
+        <div id = "testDiv" style = "margin-top:200px">
+            测试内容显示区
+            <script type="text/javascript"></script> 
+        </div>
+        
+        window.js_app_user.gesture
+        <input type="button" value="手势密码" onclick = "window.js_app_user.gesture();"/> </br>
+        window.js_app_user.login
+        <input type="button" value="登陆" onclick = "window.js_app_user.login();"/> </br>
+        window.js_app_user.logout
+        <input type="button" value="登出" onclick = "window.js_app_user.logout();"/> </br>
+        window.js_app_user.register
+        <input type="button" value="注册" onclick = "window.js_app_user.register();"/> </br>
+        window.js_app_user.real
+        <input type="button" value="实名" onclick = "window.js_app_user.real();"/> </br>
+        window.js_app_user.bank
+        <input type="button" value="银行" onclick = "window.js_app_user.bank();"/> </br>
+        window.js_app_user.transword
+        <input type="button" value="交易密码" onclick = "window.js_app_user.transword();"/> </br>
+        
+        window.js_app_user.getToken
+        <input type="button" value="token" onclick = "alert(window.js_app_user.getToken());"/> </br>
+        
+        window.js_app_user.getUserid
+        <input type="button" value="userid" onclick = "alert(window.js_app_user.getUserid());"/> </br>
+        
+        window.js_app_user.getUsername
+        <input type="button" value="username" onclick = "alert(window.js_app_user.getUsername());"/> </br>
+        
+        
+        
+    </body>
+</html>
+<script type="text/javascript">
+    function getMessageFromApp(message){
+        var testDiv = document.getElementById("testDiv");
+        testDiv.innerText = message;
+    }
+
+
+//getMessageFromApp("test");
+</script>

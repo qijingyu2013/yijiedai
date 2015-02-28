@@ -1,0 +1,22 @@
+.bankdetails-content {
+	width:100%;
+	background:#fff;
+	color:#848484;
+	height:auto;
+	overflow:hidden
+}
+.bankdetails-content dt {
+	color:#000;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px solid #eee;
+	text-indent:3%;
+}
+.bankdetails-content dd{
+	border-bottom:1px solid #eee;
+	line-height:25px;
+	padding:8px 0;
+	text-indent:3%
+}
+
+.bankdetails-content .account-sign-in { width:94%; margin:0 auto;}

@@ -1,0 +1,12 @@
+.yjd-feedback {
+	width:94%;
+	margin:20px auto;
+	height:auto;
+	overflow:hidden;
+}
+#afui #kaquan label {width: 30%;padding:15px 0;}
+#afui  #kaquan label + input[type="text"] {
+    width: 65%;
+	font-size:12px;
+	margin: 5px 0 0 0;
+}

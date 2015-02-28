@@ -1,0 +1,43 @@
+.carousel_paging2 {
+            border-radius: 10px;
+            background: #ccc;
+            width: 10px;
+            height: 10px;
+            display:inline-block;
+        }
+    .carousel_paging2_selected {
+        border-radius: 10px;
+        background: #ee4136;
+        width: 10px;
+        height: 10px;
+        display:inline-block;
+    }
+    
+    .spacer {
+        width: 10px;
+        float: left;
+    }
+    
+    .carousel_content {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+    .page-kuan {
+        width:100%;
+        height:auto;
+        position:relative;
+        overflow:hidden;
+    }
+    .page-kuan img { width:100%; height:auto;}
+    .btn-page {width:320px;height:40px;position:absolute;top:80%;display:block;}
+    #carousel a {
+        width:200px;
+        height:40px;
+        background:#ee4136;
+        display:block;
+        text-align:center;
+        line-height:40px;
+        color:#fff;
+        text-decoration:none;
+        margin:0 auto;
+        border-radius:5px;
+    }

@@ -1,0 +1,103 @@
+.yjd-grap {
+	width:94%;
+	height:auto;
+	margin:0 3%;
+	padding-bottom:20px;
+}
+.yjd-grap-list { 
+	background:#fff;
+	border-radius:5px;
+	border:1px solid #dedede;
+	margin:20px 0;
+	
+}
+.yjd-grap-list h3 {
+	width:100%;
+	height:auto;
+	overflow:hidden
+}
+.yjd-grap-title {
+	border-radius:5px 0 5px 0;
+	background:#FE7C02;
+	height:25px;
+	width:70px;
+	display:block;
+	line-height:25px;
+	text-align:center;
+	color:#fff;
+	float:left
+}
+.yjd-grap-zun {
+	width:20px;
+	height:20px;
+	float:right;
+	border-radius:0 5px;
+	display:block;
+	background:#DBBB64;
+	line-height:20px;
+	text-align:center;
+	color:#fff;
+	font-size:12px;
+}
+.yjd-grap-box {
+	width:96%;
+	height:auto;
+	display:block;
+	color:#848484;
+	padding:0 2%;
+	padding-bottom:10px;
+	position:relative;
+}
+.yjd-grap-box h4 {
+	height:40px;
+	line-height:40px;
+	border-bottom:1px solid #dedede;
+	width:100%;
+	color:#000;
+	font-weight:bold;
+	font-size:14px;
+}
+.yjd-grap-box h4 span {
+	font-size:12px;
+	font-weight:normal;
+	float:right
+}
+.yjd-grap-daojishi {
+	width:75%;
+	height:20px;
+	font-size:12px;
+	color:#848484;
+	line-height:20px;
+	margin:10px 0;
+}
+.yjd-grap-daojishi i { margin:0 5px;}
+.yjd-grap-box ul { width:70%}
+.fn-tixing ,.yjd-fn-toubiao { 
+	position:absolute;
+	top:25px;
+	right:0px;
+}
+
+.yjd-grap-box2 {
+	height:70px;
+	line-height:70px;
+}
+.fn-chakan {
+	margin-top:0;
+	top:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

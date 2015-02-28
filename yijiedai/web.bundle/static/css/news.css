@@ -1,0 +1,53 @@
+
+
+.news-content  li a{
+	height:50px;
+	line-height:50px;
+	font-size:12px;
+	border:1px solid #eee;
+	width:100%;
+	overflow:hidden;
+	display:block;
+	color:#848484;
+	font-weight:bold
+}
+.news-content li span {
+	width:4px;
+	height:4px;
+	border-radius:2px;
+	background:#848484;
+	display:block;
+	float:left;
+	margin:22px 8px 0 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**消息明细**/
+.yjd-newsdetails { color:#848484;}
+.yjd-newsdetails h3{ 
+	text-align:center;
+	border-bottom:1px solid #eee;
+	padding:10px 0; 
+	overflow:hidden;
+	width:100%;
+	font-size:14px;
+	line-height:20px;
+}
+.yjd-newsdetails h3 time { font-size:12px;}
+.newsdetails-content {width:94%;margin:0 auto;}

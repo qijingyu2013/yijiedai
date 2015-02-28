@@ -1,0 +1,94 @@
+.mymoney-main {
+	width:100%;
+	height:80px;
+	background:-webkit-gradient(linear, 0 0, 0 100%, from(#e0585a), to(#ee4137));
+	color:#fff;
+}
+
+.mymoney-main-huishou {
+	width:57%;
+	float:left;
+	text-align:left;
+	margin-left:3%;
+	line-height:30px;
+	margin-top:10px;
+}
+.mymoney-main-shouyi {
+	width:37%;
+	float:right;
+	text-align:right;
+	margin-right:3%;
+	line-height:30px;
+	margin-top:10px;
+}
+
+
+
+
+
+
+.mymoney-content { 
+	width:100%;
+	height:auto;
+	background:#fff;
+	overflow:hidden;
+}
+.mymoney-content  li { float:left; font-size:12px;}
+.mymoney-conten-title { 
+	height:40px;
+	line-height:40px; 
+	background:#eee; 
+	color:#000;
+	margin:15px 0 0 0;
+}
+.mymoney-conten-list {
+	height:60px;
+	line-height:20px;
+	padding:10px 0;
+	border:1px solid #eeeeee;
+	display:block;
+	color:#848484
+}
+.mymoney-conten-list:hover { background:#eee}
+.mymoney-list-title1 { width:29%; margin-left:3%; color:#000}
+.mymoney-list-title2 { width:25%; text-align:center;line-height:40px;}
+.mymoney-list-title3 { width:15%;line-height:40px;text-align:center}
+.mymoney-conten-list .mymoney-list-title2 { text-align:right}
+
+.load-more {
+	height:50px;
+	line-height:50px;
+	width:100%;
+	text-align:center;
+	color:#848484;
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

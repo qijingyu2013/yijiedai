@@ -1,0 +1,402 @@
+/* 浏览器重置 start */
+body, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, form, fieldset, legend, input, select, textarea, button, th, td, menu, article, pre, xmp, plaintext, listing {
+    margin: 0;
+    padding: 0;
+}
+pre, xmp, plaintext, listing {
+    white-space: normal;
+}
+article, aside, dialog, figure, footer, header, hgroup, nav, section, select, time {
+    display: block;
+}
+h1, h2, h3, h4, h5, h6, input, textarea, select, button, label {
+    font-size: 100%;
+    font-weight: 200;
+    vertical-align: middle;
+}
+ul, dl, ol {
+    list-style: none;
+}
+img, fieldset, input[type="submit"] {
+    border: none;
+}
+input {
+    outline: none;
+    background: transparent;
+    vertical-align: top;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+button {
+    cursor: pointer;
+    border: none;
+}
+textarea {
+    word-wrap: break-word;
+    resize: none;
+}
+/* 去除IE下拉菜单箭头 */
+
+select::-ms-expand {
+    display: none;
+}
+/* 去除IE下radio、checkbox默认样式 */
+
+::-ms-check {
+    display: none;
+}
+/* 去除输入框、文本域默认边框和IOS4下的内阴影 */
+
+input, textarea, select {
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+}
+/* 设置Gecko内核下输入框属性placeholder中值的文件颜色 */
+
+input:-moz-placeholder {
+    color: #C4C4C4;
+}
+/* 设置webkit内核下输入框属性placeholder中值的文件颜色 */
+
+::-webkit-input-placeholder {
+    color: #C4C4C4;
+}
+body {
+    background: #EAEAEA;
+    font-family: ;
+    -webkit-user-select: none;
+    /* 禁止选中文本 */
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.05);
+    /* 设置点击链接时遮罩层为全透明 */
+    overflow: hidden;
+    min-height: 100%;
+    font-family: "黑体" medium sans-serif;
+    background: #FFFFFF;
+    color: #666666
+}
+/* 设置webkit内核下文字大小不小于12px */
+
+html, body {
+    -webkit-text-size-adjust: none;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+/* 禁止长按链接、按钮、输入框出现系统默认弹框菜单 */
+
+a, button, input {
+    -webkit-touch-callout: none;
+    outline: none;
+}
+a, a:visited {
+    text-decoration: none;
+    -webkit-touch-callout: none;
+}
+/* 浏览器重置 end 
+
+/**引用字体图标**/
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('font/iconfont.eot');
+    /* IE9*/
+    src: url('font/iconfont.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('font/iconfont.woff') format('woff'),
+    /* chrome、firefox */
+    url('font/iconfont.ttf') format('truetype'),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('font/iconfont.svg#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+.iconfont {
+    font-family: "iconfont";
+    font-size: 16px;
+    font-style: normal;
+}
+/**改基础样式**/
+
+#afui.ios7 .header, #afui.android .header, #afui.ios .header, #afui .header {
+    background: none repeat scroll 0% 0% #a50101;
+    height: 64px;
+    border: none;
+}
+#afui.ios7 .header h1, #afui.ios .header h1 {
+    color: #fff
+}
+#afui .header h1 {
+    height: 64px;
+    padding-top: 30px;
+    line-height: 28px;
+}
+/**改header样式**/
+
+#afui h2 {
+    margin: 0;
+    padding: 0
+}
+#afui .y-scroll, #afui .panel.y-scroll {
+    background: #EBEBEB
+}
+#afui.ios7 .footer>footer>a:not(.button), #afui.ios .footer>footer>a:not(.button) {
+    color: #eee
+}
+#afui .footer, #afui.android .footer, #afui.ios7 .footer, #afui.ios .footer {
+    background: none repeat scroll 0% 0% #262626;
+    border-color: #262626 -moz-use-text-color -moz-use-text-color;
+    height: 49px;
+	overflow:hidden
+}
+/**改footer样式**/
+
+#afui.ios .footer>footer>a.pressed:not(.button) {
+    background: #262626;
+    border-radius: 6px;
+	
+}
+#afui footer > a.pressed:not(.button) {
+    border-radius: 0px;
+    background: none repeat scroll 0% 0% #a50101;
+	height:49px;
+}
+#afui footer > a:not(.button) {
+    top: 0;
+    line-height: 20px;
+	font-size:10px;
+	height: 49px;
+}
+#afui .ios footer > a:not(.button) {
+    height: 49px;
+    top: 0;
+    line-height: 20px
+}
+#afui.ios7 .footer > footer > a.pressed:not(.button), .footer > footer > a.icon.pressed:not(.button):before, #afui.ios .footer > footer > a.pressed:not(.button), .footer > footer > a.icon.pressed:not(.button):before {
+    color: #d9000f;
+}
+#afui.ios7  .footer > #view-footer  > a.pressed:not(.button),.footer > #view-footer  > a.icon.pressed:not(.button):before, #afui.ios .footer  > #view-footer > a.pressed:not(.button),.footer  > #view-footer > a.icon.pressed:not(.button):before {
+    color: #fff;
+}
+#afui .footer {
+    padding: 0;
+    border-style: none
+}
+#afui.ios .footer {
+    border: none
+}
+/**footer样式**/
+
+#afui .footer #view-footer, #afui .android .footer #view-footer, #afui.ios7 .footer #view-footer, #afui.ios .footer #view-footer {
+    background: #ee4136;
+    color: #fff
+}
+#afui.ios7 .footer #view-footer> footer > a.pressed:not(.button) {
+    color: #eee
+}
+/**改底部链接默认样式和点击样式**/
+
+#afui .panel {
+    padding: 0;
+}
+/**panel默认样式修改**/
+
+/**改表单样式**/
+
+#afui label {
+    color: #000;
+    font-weight: 700;
+}
+/**改表单样式**/
+
+/**改基础样式**/
+
+.fn-clear {
+    clear: both
+}
+/**清除浮动**/
+
+/**字体颜色和背景颜色**/
+
+.c-848484 {
+    color: #848484
+}
+.c-df5858 {
+    color: #df5858
+}
+.bc-d9000f {
+    background: #FF9400
+}
+.bc-E74100 {
+    background: #E74100
+}
+.bc-ccc {
+    background: #ccc
+}
+.c-fff {
+    color: #fff
+}
+/**字体大小**/
+
+.font-12 {
+    font-size: 12px;
+}
+.font-14 {
+    font-size: 14px;
+}
+.font-16 {
+    font-size: 16px;
+}
+.font-20 {
+    font-size: 20px;
+}
+.right-8 {
+    margin-right: 8px;
+}
+.right {
+    float: right
+}
+.height-20 {
+    height: 20px;
+}
+.width-94 {
+    width: 94%;
+}
+.iconfont {
+    font-weight: normal
+}
+.yjd-head-login {
+    /**logio**/
+    position: absolute;
+    right: 5px;
+    top: 25px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+}
+.load-more {
+    /**加载更多**/
+    width: 100%;
+    text-align: center;
+    color: #848484;
+    display: block;
+    overflow: hidden;
+}
+/**返回按钮样式定义**/
+
+.backbind {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    top: 26px;
+    color: #fff;
+    cursor: pointer;
+}
+.email {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    top: 26px;
+    right: 5px;
+    color: #fff;
+	display:block
+}
+.backbind i {
+    font-size: 20px;
+}
+.email i {
+    font-size: 30px;
+}
+.backbind-right {
+    right: 0px;
+}
+.tb-title-zun {
+    /**尊**/
+    right: 8px;
+    top: 5px;
+    background: #DBBB64;
+    border-radius: 3px;
+    color: #fff;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    text-indent: 0
+}
+.yjd-tip-bao {
+    /**保**/
+    background: #df5858;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 0 1px;
+    margin-right: 2px;
+}
+/**底部样式**/
+
+.footer i {
+    display: block;
+    font-size: 20px;
+    margin-top: 5px
+}
+.account-sign-in {
+    /**底部按钮**/
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #eee;
+    background: #ee4136;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+    font-weight: 700;
+}
+.yjd-btn-list {
+    /**按钮切换样式**/
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    background: #eee;
+    height: auto;
+    padding: 15px 10%;
+}
+.yjd-btn-list a {
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    color: #848484;
+    background: #fff;
+    float: left;
+    text-align: center;
+    border-radius: 3px;
+}
+.yjd-btn-list .yjd-btn-on {
+    background: #d9000f;
+    color: #fff
+}
+#afui .static-assets .template {
+    display: none;
+}
+#afui time em {
+    font-style: normal;
+}
+#afui time u {
+    text-decoration: none;
+}
+/**按钮选中样式**/

@@ -1,0 +1,23 @@
+/**复选选择样式改**/
+#change input[type="checkbox"] + label:before {
+    left: 15px;
+}
+#change input[type="radio"] + label, #change input[type="checkbox"] + label {
+    width: 60%;
+    float: left;
+	text-indent: 40px;
+}
+#change input[type="checkbox"]:checked + label:before {
+    text-indent: 0;
+	color:#ee4136
+}
+#change input[type="radio"]:checked + label:before, #change input[type="checkbox"]:checked + label:before {
+    background: none repeat scroll 0% 0% #fff;
+}
+/**复选选择样式改**/
+#change .change-xianshi {
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	margin-top:-10px;
+}

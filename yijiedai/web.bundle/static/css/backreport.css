@@ -1,0 +1,16 @@
+.backreport-content ul { 
+	height:40px;
+	width:100%;
+	line-height:40px;
+	text-align:center;
+	font-size:12px;
+	overflow:hidden;
+}
+.backreport-content li { float:left}
+.backreport-list-1 { width:23%; margin-left:3%; text-align:left}
+.backreport-list-2 { width:25%;}
+.backreport-list-3 { width:10%}
+.backreport-list-title { background:#eee; color:#000}
+.backreport-list { border-bottom:1px solid #eee}
+.backreport-list .backreport-list-2 { text-align:right;}
+.gou { color:#1fa220}

@@ -1,0 +1,162 @@
+.account-content {
+    width: 94%;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+}
+.account-main {
+    width: 100%;
+    height: 150px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#e0585a), to(#ee4137));
+    color: #fff;
+}
+.account-main ul {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.account-main li {
+    float: left;
+}
+.account-main li i {
+    font-size: 60px;
+    margin-top: 15px;
+    margin-left: 8%;
+    display: block
+}
+.account-main-inf {
+    width: 55%;
+    line-height: 20px;
+    margin-top: 12px;
+    margin-left: 5%;
+}
+.account-main a {
+    background: url(../images/jin-anniu.png);
+    width: 58px;
+    height: 58px;
+    display: block;
+    text-align: center;
+    line-height: 58px;
+    color: #a45700;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.account-main-huishou {
+    width: 57%;
+    float: left;
+    text-align: left;
+    margin-left: 3%;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.account-main-shouyi {
+    width: 37%;
+    float: right;
+    text-align: right;
+    margin-right: 3%;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.email-num {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background: #ff3c00;
+    color: #eee;
+    display: block;
+    text-align: center;
+    top: 5px;
+    right: 0;
+	line-height:16px;
+}
+.account-content-list {
+    margin-top: 15px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    background: #fff;
+    width: 100%;
+    height: auto;
+    overflow: hidden
+}
+.account-content-list h3, .account-content-list h3 a {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #eee;
+    color: #000;
+    display: block;
+    overflow: hidden;
+}
+.account-content-list h3 i {
+    font-size: 20px;
+    color: #b7b7b7;
+    margin: 0 8px;
+}
+.account-prev {
+    float: left;
+}
+.account-next {
+    float: right;
+}
+.account-next, .account-prev {
+    width: 15%;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 70px;
+}
+.shouyi-list {
+    float: left;
+    width: 70%;
+    line-height: 20px;
+    padding: 8px 0
+}
+.shouyi-list dt {
+    color: #000
+}
+.shouyi-list dd {
+    font-size: 12px;
+}
+.shouyi-list-l {
+    float: left
+}
+.shouyi-list-r {
+    float: right
+}
+.iconright {
+    float: right
+}
+.account-sign-in {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #eee;
+    background: #ee4136;
+    border-radius: 5px;
+    display: block;
+    margin: 20px 0;
+}
+/**ÕË»§°²È«**/
+
+.security-content-list li {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #eee;
+    color: #000;
+    margin-left: 16px;
+}
+.security-content-list li a {
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    display: block;
+    float: right;
+    margin-right: 8px;
+    border-radius: 3px;
+    background: #ee4136;
+    color: #fff;
+    margin-top: 5px;
+}

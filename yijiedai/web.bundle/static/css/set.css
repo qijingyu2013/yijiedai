@@ -1,0 +1,54 @@
+
+
+.yjd-set ul {
+	width:94%;
+	margin:0 auto;
+	height:auto;
+	overflow:hidden
+}
+.yjd-set ul li {
+	width:100%;
+	height:40px;
+	line-height:40px;
+	border:1px solid #d7d7d7;
+	background:#fff;
+	border-radius:3px;
+	margin:15px 0;
+	text-indent:20px;
+	color:#000
+}
+.yjd-set ul li  i { color:#c6c6c6; float:right; margin-right:10px;}
+.set-com { 
+	float:right;
+	margin-right:20px;
+	text-indent:0;
+	margin-top:2px;
+}
+
+#afui input.toggle + label:after {
+    top: -8px
+}
+#afui input.toggle + label:before, #afui input.toggle:checked + label:before {
+    top: -8px;
+    overflow: visible;
+}
+#afui input.toggle + label > span {
+    width: 40px;
+    height: 24px;
+    background:-webkit-gradient(linear, 0 0, 0 100%, from(#f0f0f0), to(#ddd));
+    border-radius: 25px;
+	top:-1px;
+
+}
+#afui input.toggle:checked + label > span {
+    transform: translate3d(24px, 0px, 0px);
+}
+#afui input.toggle + label {
+    left: 13%;
+}
+#afui input.toggle + label {
+    background: none repeat scroll 0% 0% #cccccc;
+}
+#afui input.toggle:checked + label {
+    background: none repeat scroll 0% 0% #ee4136;
+}

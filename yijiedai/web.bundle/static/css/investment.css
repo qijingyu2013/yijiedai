@@ -1,0 +1,94 @@
+.investment-main {
+	width:100%;
+	height:80px;
+	background:-webkit-gradient(linear, 0 0, 0 100%, from(#e0585a), to(#ee4137));
+	color:#fff;
+}
+
+.investment-main-huishou {
+	width:57%;
+	float:left;
+	text-align:left;
+	margin-left:3%;
+	line-height:30px;
+	margin-top:10px;
+}
+.investment-main-shouyi {
+	width:37%;
+	float:right;
+	text-align:right;
+	margin-right:3%;
+	line-height:30px;
+	margin-top:10px;
+}
+
+
+
+
+.investment-content { 
+	width:100%;
+	height:auto;
+	background:#fff;
+	overflow:hidden;
+}
+.investment-content  li { float:left; font-size:12px;}
+.investment-conten-title { 
+	height:40px;
+	line-height:40px; 
+	background:#eee; 
+	color:#000;
+	margin:15px 0 0 0;
+}
+.investment-conten-list {
+	height:60px;
+	line-height:20px;
+	padding:10px 0;
+	border:1px solid #eeeeee;
+	display:block;
+	color:#848484;
+}
+.investment-conten-list:hover { background:#eee}
+.investment-list-title1 { width:15%; margin-left:3%; color:#000;line-height:40px}
+.investment-list-title2 { width:40%; text-align:center;}
+.height-20 {white-space: nowrap;overflow: hidden;text-overflow: ellipsis}
+.investment-list-title3 { width:20%;line-height:40px;text-align:right}
+.investment-list-title4 { width:20%;line-height:40px;text-align:right}
+
+
+.load-more {
+	height:50px;
+	line-height:50px;
+	width:100%;
+	text-align:center;
+	color:#848484;
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+
+.bidamount-hang { padding-bottom:10px; height:auto; overflow:hidden}
+.bidamount-left { float:left}
+.bidamount-left span { float:none}
+.bidamount-click {
+	float:right;
+	text-decoration:underline;
+}
